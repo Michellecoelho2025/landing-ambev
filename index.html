@@ -1,173 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Faça seu primeiro pedido Ambev com a DL Distribuidora, revendedor autorizado. Peça agora via WhatsApp com entrega rápida e atendimento direto." />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Primeiro Pedido Ambev - DL Distribuidora" />
-  <meta property="og:description" content="Peça agora sua primeira remessa de bebidas com revendedor autorizado Ambev. Atendimento rápido via WhatsApp!" />
-  <meta property="og:image" content="/images/banner-campanha.jpg" />
-  <title>Primeiro Pedido Ambev - DL Distribuidora</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f2f4f8;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(to right, #002f6c, #0074c1);
-      color: #fff;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h2 {
-      margin: 0.5rem 0 0.3rem;
-      font-size: 1.8rem;
-    }
-    header p {
-      font-size: 0.95rem;
-      opacity: 0.95;
-    }
-    .banner {
-      width: 100%;
-      display: block;
-      max-width: 100%;
-    }
-    .cta {
-      background: #ffffff;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    .cta h1 {
-      font-size: 2.4rem;
-      margin-bottom: 1rem;
-      color: #002f6c;
-    }
-    .cta p {
-      font-size: 1.15rem;
-      margin-bottom: 2rem;
-      max-width: 750px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.7;
-    }
-    .benefits {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 2rem;
-      gap: 1.5rem;
-    }
-    .benefit {
-      background: #eaf3fb;
-      border-left: 5px solid #0074c1;
-      padding: 1rem 1.2rem;
-      border-radius: 8px;
-      max-width: 280px;
-      text-align: left;
-    }
-    .benefit h3 {
-      margin-top: 0;
-      color: #002f6c;
-      font-size: 1.2rem;
-    }
-    .benefit p {
-      font-size: 0.95rem;
-      line-height: 1.4;
-    }
-    .whatsapp-btn {
-      background-color: #25d366;
-      color: white;
-      padding: 1rem 2.5rem;
-      border: none;
-      border-radius: 50px;
-      font-size: 1.2rem;
-      text-decoration: none;
-      display: inline-block;
-      transition: background 0.3s ease;
-      margin-top: 2rem;
-    }
-    .whatsapp-btn:hover {
-      background-color: #1ebc59;
-    }
-    .extra-buttons {
-      margin-top: 3rem;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-    .extra-buttons a {
-      padding: 0.9rem 1.8rem;
-      background-color: #0074c1;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 30px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
-    .extra-buttons a:hover {
-      background-color: #005999;
-    }
-    footer {
-      background: #002f6c;
-      color: #fff;
-      text-align: center;
-      padding: 1.5rem 1rem;
-      font-size: 0.9rem;
-    }
-    @media (max-width: 600px) {
-      .cta h1 {
-        font-size: 1.7rem;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Faça seu primeiro pedido de bebidas Ambev com a DL Distribuidora!" />
+    <title>DL Distribuidora de Bebidas LTDA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f7f9fc;
+        color: #1f2937;
+        line-height: 1.6;
+      }
+      header {
+        background: linear-gradient(90deg, #003366, #0055a5);
+        color: white;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+      }
+      header p {
+        font-size: 0.95rem;
+      }
+      main {
+        padding: 2rem 1rem;
+        max-width: 900px;
+        margin: auto;
+      }
+      h2 {
+        text-align: center;
+        color: #1e40af;
+        margin-bottom: 1rem;
+      }
+      p.center {
+        text-align: center;
+        margin-bottom: 2rem;
       }
       .benefits {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 2rem;
       }
-      .extra-buttons {
-        flex-direction: column;
-        align-items: center;
+      .benefit {
+        background-color: #e0f2fe;
+        border-left: 5px solid #1d4ed8;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        width: 260px;
       }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h2>DL Distribuidora de Bebidas LTDA</h2>
-    <p>Revendedor autorizado com atendimento rápido | CNPJ: 48.846.339/0001-30</p>
-  </header>
-  <img src="/images/banner-campanha.jpg" alt="Ofertas de Bebidas Ambev" class="banner" />
-  <section class="cta">
-    <h1>Primeiro Pedido Ambev?</h1>
-    <p>Somos a DL Distribuidora, especializada em atender comerciantes, bares e mercados com os principais produtos da Ambev. Faça agora sua primeira cotação com um revendedor autorizado e garanta entrega rápida, preços especiais e suporte direto pelo WhatsApp.</p>
-    <div class="benefits">
-      <div class="benefit">
-        <h3>✅ Atendimento Imediato</h3>
-        <p>Fale com nossa equipe agora mesmo e tire suas dúvidas sem burocracia.</p>
+      .benefit h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #0f172a;
+      }
+      .benefit p {
+        font-size: 0.9rem;
+        color: #374151;
+      }
+      .cta {
+        display: flex;
+        justify-content: center;
+      }
+      .cta a {
+        background-color: #22c55e;
+        color: white;
+        font-weight: 600;
+        padding: 1rem 2rem;
+        border-radius: 9999px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      .cta a:hover {
+        background-color: #16a34a;
+      }
+      footer {
+        background-color: #1e3a8a;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>DL Distribuidora de Bebidas LTDA</h1>
+      <p>Revendedor autorizado com atendimento rápido | CNPJ: 48.846.339/0001-30</p>
+    </header>
+
+    <main>
+      <h2>Primeiro Pedido Ambev?</h2>
+      <p class="center">
+        Somos a DL Distribuidora, especializada em atender comerciantes, bares e mercados com os
+        principais produtos da Ambev. Faça agora sua primeira cotação com um revendedor
+        autorizado e garanta entrega rápida, preços especiais e suporte direto pelo WhatsApp.
+      </p>
+
+      <div class="benefits">
+        <div class="benefit">
+          <h3>✅ Atendimento Imediato</h3>
+          <p>Fale com nossa equipe agora mesmo e tire suas dúvidas sem burocracia.</p>
+        </div>
+        <div class="benefit">
+          <h3>🎉 Entrega Rápida</h3>
+          <p>Receba sua remessa em tempo recorde para manter seu estoque sempre abastecido.</p>
+        </div>
+        <div class="benefit">
+          <h3>💸 Preços Especiais</h3>
+          <p>Descontos exclusivos para novos clientes no primeiro pedido.</p>
+        </div>
       </div>
-      <div class="benefit">
-        <h3>🚚 Entrega Rápida</h3>
-        <p>Receba sua remessa em tempo recorde para manter seu estoque sempre abastecido.</p>
+
+      <div class="cta">
+        <a href="https://wa.me/SEUNUMEROAQUI" target="_blank">Fazer Primeiro Pedido via WhatsApp</a>
       </div>
-      <div class="benefit">
-        <h3>💰 Preços Especiais</h3>
-        <p>Descontos exclusivos para novos clientes no primeiro pedido.</p>
-      </div>
-    </div>
-    <a class="whatsapp-btn" href="https://wa.me/5511962204217?text=Ol%C3%A1%2C+gostaria+de+fazer+meu+primeiro+pedido+Ambev+com+a+DL+Distribuidora" target="_blank">Fazer Primeiro Pedido via WhatsApp</a>
-    <div class="extra-buttons">
-      <a href="https://wa.me/5511962204217?text=Ol%C3%A1%2C+quero+fazer+uma+cotação+completa+da+linha+Ambev" target="_blank">Solicitar Cotação</a>
-      <a href="https://wa.me/5511962204217?text=Tenho+interesse+em+parceria+de+revenda" target="_blank">Quero ser parceiro</a>
-      <a href="https://wa.me/5511962204217?text=Quais+as+formas+de+pagamento%3F" target="_blank">Condições de Pagamento</a>
-    </div>
-  </section>
-  <footer>
-    <p>&copy; 2025 DL Distribuidora de Bebidas LTDA | CNPJ: 48.846.339/0001-30</p>
-    <p>Este site é operado por revendedor independente. Não possui vínculo oficial com a Ambev S.A. e atua apenas como distribuidor autorizado de seus produtos.</p>
-  </footer>
-</body>
+    </main>
+
+    <footer>
+      &copy; 2025 DL Distribuidora de Bebidas. Todos os direitos reservados.
+    </footer>
+  </body>
 </html>
