@@ -23,6 +23,8 @@
         color: white;
         padding: 1.5rem;
         text-align: center;
+        filter: blur(1px);
+        opacity: 0.6;
       }
       header h1 {
         font-size: 1.75rem;
@@ -74,6 +76,7 @@
       .cta {
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
       }
       .cta a {
         background-color: #22c55e;
@@ -86,6 +89,14 @@
       }
       .cta a:hover {
         background-color: #16a34a;
+      }
+      .truck-image {
+        display: block;
+        margin: 0 auto 2rem;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       }
       footer {
         background-color: #1e3a8a;
@@ -109,10 +120,12 @@
     <main>
       <h2>Primeiro Pedido Ambev?</h2>
       <p class="center">
-        Somos a DL Distribuidora, especializada em atender comerciantes, bares e mercados com os
+        Somos uma distribuidora especializada em atender comerciantes, bares e mercados com os
         principais produtos da Ambev. Faça agora sua primeira cotação com um revendedor
         autorizado e garanta entrega rápida, preços especiais e suporte direto pelo WhatsApp.
       </p>
+
+      <img class="truck-image" src="https://static.wixstatic.com/media/9da38b_502fa05d9a1e4de18ecbd35377d624db~mv2.jpg" alt="Caminhão Ambev" />
 
       <p class="center">
         Nossa distribuidora autorizada da Ambev oferece uma linha completa de cervejas, refrigerantes e bebidas prontas para bares, restaurantes, festas e eventos. Qualidade, compromisso e entrega rápida são o nosso diferencial.
@@ -134,7 +147,7 @@
       </div>
 
       <div class="cta">
-        <a href="https://wa.me/SEUNUMEROAQUI" target="_blank">Fazer Primeiro Pedido via WhatsApp</a>
+        <a href="https://wa.me/5511967808089?text=Ol%C3%A1%2C+gostaria+de+fazer+meu+primeiro+pedido+Ambev+com+a+DL+Distribuidora." target="_blank">Fazer Primeiro Pedido via WhatsApp</a>
       </div>
     </main>
 
